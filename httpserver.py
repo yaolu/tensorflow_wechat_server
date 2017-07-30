@@ -1,9 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api, reqparse, abort
 import itchat
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 
 app = Flask(__name__)
